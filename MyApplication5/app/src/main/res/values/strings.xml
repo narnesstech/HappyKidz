@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Happy Kidz</string>
+    <string-array name="listArray">
+    <item>select</item>
+    <item>Daycare</item>
+    <item>Preprimary</item>
+    <item>AboutUs</item>
+     <item>Registration</item>
+    </string-array>
+
+</resources>

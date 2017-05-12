@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Spinner
+        android:textAlignment="center"
+        android:entries="@array/listArray"
+        android:id="@+id/spinCountries"
+        android:layout_width="match_parent"
+        android:layout_height="69dp">
+
+
+
+    </Spinner>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="322dp"
+        app:srcCompat="@mipmap/happykidz" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Happy Kidz,                                                                                       Miyapur,                                                                                                                           Website :Happykids.com,                                                                           mob No 9885577329"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+</LinearLayout>
