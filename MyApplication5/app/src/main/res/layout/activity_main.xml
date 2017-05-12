@@ -25,7 +25,7 @@
         <TextView
             android:gravity="center_vertical"
             android:textColor="@color/colorPrimaryDark"
-            android:text="Happy Kidz,                                                                                       Miyapur,                                                                                                                           Website :Happykids.com,                                                                           mob No 9885577329"
+            android:text="Happy Kidz,    nARENDER Miyapur,                                                                                                                           Website :Happykids.com,                                                                           mob No 9885577329"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
