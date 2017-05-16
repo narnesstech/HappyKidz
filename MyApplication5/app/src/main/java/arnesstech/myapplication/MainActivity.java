@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id)
             {
-                Toast.makeText(getApplicationContext(),"selected  ",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"selectedcxcx  ",Toast.LENGTH_LONG).show();
             }
 
             @Override
