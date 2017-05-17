@@ -1,34 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <Spinner
-        android:textAlignment="center"
-        android:entries="@array/listArray"
-        android:id="@+id/spinCountries"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    >
+<Spinner
+    android:layout_weight="0.33"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:id="@+id/spinner"
+    android:entries="@array/Listarrray"
+    >
+
+</Spinner>
+
+
+
+    <LinearLayout
+ android:layout_weight="0.33"
         android:layout_width="match_parent"
-        android:layout_height="69dp">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
 
 
-    </Spinner>
+        <Gallery
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="match_parent"
-        android:layout_height="322dp"
-        app:srcCompat="@mipmap/happykidz" />
-
-        <TextView
-            android:gravity="center_vertical"
-            android:textColor="@color/colorPrimaryDark"
-            android:text="Happy Kidz,  Miyapur,                                                                                                                           Website :Happykids.com,                                                                           mob No 9885577329"
+            android:id="@+id/lview"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="325dp">
+
+        </Gallery>
 
 
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_weight="0.33"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="inherit"
+        android:text="Contact Us     Miyapur,Hyderabad,Telangana   Website :www.happykidz.com                                                 mob No 9885577329"
+        android:textColor="@color/colorPrimaryDark" />
+
+<LinearLayout
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_weight="0.50"
+            android:layout_width="25dp"
+            android:layout_height="55dp"
+            android:src="@drawable/facebook"
+
+
+            />
+        <ImageButton
+            android:layout_weight="0.50"
+            android:layout_width="25dp"
+            android:layout_height="53dp"
+            android:src="@drawable/gmail"
+            />
+
+
+
+</LinearLayout>
 
 </LinearLayout>
