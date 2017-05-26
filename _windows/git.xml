@@ -1,6 +1,6 @@
 <application>
   <component name="Git.Application.Settings">
-    <option name="myPathToGit" value="C:\Users\Jogi\AndroidStudioProjects\MyApplication5\app\build.gradle" />
+    <option name="myPathToGit" value="D:\MyApplication5\build.gradle" />
     <option name="SSH_EXECUTABLE" value="NATIVE_SSH" />
   </component>
 </application>
