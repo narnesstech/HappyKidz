@@ -3,5 +3,6 @@
     <ignoreAction name="Android/Insert App Indexing API Code" />
     <ignoreAction name="Java/Refactorings/Introduce local variable" />
     <ignoreAction name="Android/Override Resource in Other Configuration..." />
+    <ignoreAction name="Java/Declaration/Unimplement Interface/Class" />
   </component>
 </application>
