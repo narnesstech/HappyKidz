@@ -5,6 +5,7 @@
       <mapping pattern="about us" type="PLAIN_TEXT" />
       <mapping pattern="aaa" type="PLAIN_TEXT" />
       <mapping ext="mp3" type="PLAIN_TEXT" />
+      <mapping ext="rtf" type="PLAIN_TEXT" />
       <mapping pattern="values 22" type="XML" />
     </extensionMap>
   </component>
