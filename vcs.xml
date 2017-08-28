@@ -10,8 +10,12 @@
           <option name="url" value="https://github.com/narnesstech/HappyKidz2" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://lmanneAtArnesstech@bitbucket.org/arnesstech/goldslam-android.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\AnressTech" />
+    <option name="cloneParentDir" value="D:\AnressTech\Goldslam-android" />
   </component>
 </application>
